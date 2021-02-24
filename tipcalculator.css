@@ -1,0 +1,79 @@
+body{
+    background-color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: lightgrey;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1{
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 330px;
+    transform: translateX(-50%);
+    background-color: blue;
+    color: white;
+    font-weight: 100;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper{
+    padding: 20px;
+}
+
+#rupee {
+    display: inline-block;
+}
+
+#amount{
+    display: inline;
+}
+
+input, select{
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px ;
+}
+
+input:focus, select:focus{
+    outline: none;
+}
+
+select{
+    width: 88% !important;
+}
+
+button{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 42, 52);
+    color: white;
+    font-size: 16px;
+    border-style: groove;
+    border-radius: 5px;
+}
+
+.tip{
+    text-align: center;
+    font-size: 18px;
+    display: none;
+}
+
+#tipamt{
+    font-size: larger;
+    font-weight: bolder;
+}
